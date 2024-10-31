@@ -1,0 +1,276 @@
+*{
+    margin:0;
+    padding:0;
+}
+#icon {
+    width: 30px;
+    margin-left: 150px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+:root {
+    --primary-color: linear-gradient(130deg,rgb(252, 246, 246), white);;
+    --secondary-color: black;
+}
+
+.dark-theme {
+    --primary-color: linear-gradient(130deg,gray, black);
+    --secondary-color: white;
+    
+}
+.stars{
+    color:gold
+}
+
+body {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    text-transform: capitalize;
+}
+#choosen{
+    background-color: var(--primary-color) !important;
+    color: var(--secondary-color) !important;
+}
+.navbar {
+    background-color: var(--primary-color) !important;
+    color: var(--secondary-color) !important;
+}
+.navbar-nav .nav-link {
+    color: var(--secondary-color) !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: gold !important; 
+}
+
+.navbar-toggler {
+    border-color: var(--secondary-color) !important;
+}
+#choosen1{
+    box-shadow: 0 0 10px black;
+}
+#nativejollof{
+    width:250px;
+    border-radius: 10px;
+    border-radius:50%;
+}
+#fresh span{
+    color:gold;
+    font-style: italic;
+}
+span{
+    color:gold;
+    font-style: italic;
+}
+.cardss{
+    display:flex;
+    justify-content: center;
+}
+.cardss img{
+    width:300px;
+    border-radius:50%;
+    margin-bottom: 30px;
+}
+@media (max-width:700px){
+    .cardss{
+        display:grid;
+      
+    }
+    .cardss img{
+        width:200px;
+        height: 30vh;
+        margin-left: 150px;
+    }
+    #fire{
+        text-align: center;
+    }
+}
+#menu img{
+    width:100%;
+}
+#menus img{
+    width:100%;
+}
+#menuss img{
+    width:100%;
+}
+.dark-theme #menu{
+    background:linear-gradient(130deg,gray, black)
+}
+.dark-theme #menus{
+    background:linear-gradient(130deg,gray, black)
+}
+.dark-theme #menuss{
+    background:linear-gradient(130deg,gray, black)
+}
+#menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url(obito.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#menus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url(obito.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#menuss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(obito\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.jjj img{
+    height:40vh;
+    width:100% !important 
+}
+.jjj{
+    max-width:250px;
+    height:70vh;
+}
+.five{
+    border-radius: 10px;
+    border:1px solid black;
+    
+    
+}
+.jj img{
+height: 35vh;
+}
+.rat{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.jjss img{
+    border-radius: 50%;
+    height:40vh;
+   }
+   .jjss img{
+    border-radius: 50%;
+    height:40vh;
+   }
+   .jjssp img{
+    border-radius: 50%;
+    height:35vh;
+   }
+   .dark-theme .rat #socials{
+    color:white;
+   }
+.dark-theme .rat{
+    background:linear-gradient(130deg,gray, black);
+}
+@media (max-width:700px){
+    #menu{
+        display: flex;
+    flex-direction: column;
+    width:200px;
+    margin-left: 100px;
+    margin-top: 10px;
+        
+    }
+    #menus{
+        display: flex;
+    flex-direction: column;
+    width:200px;
+    margin-left: 100px;
+    margin-top: 10px;
+        
+    }
+    .rat{
+        display: flex;
+        flex-direction: column;
+}
+.jjs img{
+ border-radius: 50%;
+}
+.jjss img{
+    border-radius: 50%;
+    height:40vh;
+   }
+   .jjssp img{
+    border-radius: 50%;
+    height:35vh;
+   }
+   i{
+    color:gold
+   }
+   #socials a i{
+    color:black;
+    font-size: 25px;
+   }
+   .rat{
+    background: url(obito\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+.rat input{
+    display:flex;
+   }}
+   #socials a i{
+    color:rgb(14, 14, 13);
+    font-size: 25px;
+   }
+   #team img{
+    border-radius: 50%;
+   }
+   .cex{
+    color:gold;
+   }
+   .fires{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+   }
+   .fi a{
+    display:flex;
+    font-size:20px;
+    color:black;
+    text-decoration: none;
+   }
+   .hug{
+    border-radius: 50%;
+    width:60px;
+    margin-right: 30px;
+   }
+   button a{
+    text-decoration: none;
+    color:cyan
+   }
+   #nativejollof {
+    
+    position: relative; /* Keep it relative to its original position */
+  
+    animation: floatUpDown 5s ease-in-out infinite;
+
+}
+
+@keyframes floatUpDown {
+    0% {
+        transform: translateY(-10px); /* Move slightly up */
+    }
+    50% {
+        transform: translateY(10px); /* Move slightly down */
+    }
+    100% {
+        transform: translateY(-10px); /* Back to original position */
+        
+    }
+}
